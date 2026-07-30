@@ -23,6 +23,9 @@ resume with latest job apply links""")
 
 st.image("bg.png")
 
+st.sidebar.title("fill important data")
+st.sidebar.image("bg.png")
+
 GOOGLE_API_KEY = "AQ.Ab8RN6LLlEEzNAMc__YQieQ84FWSglZrHE9X4sYiAZM4n97tqQ"
 GROQ_API_KEY = "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"
 TAVILY_API_KEY = "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" 
