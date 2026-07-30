@@ -46,7 +46,7 @@ options = ["Delhi", "Mumbai",
 location = st.sidebar.multiselect("Select Location",
                                   options = options)
 
-profile_op ["Data Analysts", "AI Engineer", 
+profile_op = ["Data Analysts", "AI Engineer", 
             "Gen AI Developer", "Full-Stack Dev", 
             "Data Scientist"]
 profile = st.sidebar.multiselect("Select Job Profile",
