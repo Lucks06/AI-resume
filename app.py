@@ -73,10 +73,10 @@ def search_latest_news_jobs(query):
   response = client.search(query)
   return response
 
-  agent = create_agent(
-    model = model,
-    tools = [
-        search_latest_news_jobs])
+agent = create_agent(
+model = model,
+tools = [
+    search_latest_news_jobs])
 # agent
 
 def main_agent(agent, query):
