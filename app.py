@@ -21,10 +21,10 @@ st.title("AI RESUME GENRATION")
 st.write("""this app helps user to build customized professional
 resume with latest job apply links""")
 
-st.image("bg.png")
+st.image("https://raw.githubusercontent.com/Lucks06/AI-resume/refs/heads/main/bg.png")
 
 st.sidebar.title("Fill Important Data")
-st.sidebar.image("bg.png")
+st.sidebar.image("https://raw.githubusercontent.com/Lucks06/AI-resume/refs/heads/main/bg.png")
 
 GOOGLE_API_KEY = st.sidebar.text_input("Gemini-API",type = "password")
 GROQ_API_KEY = st.sidebar.text_input("Groq-API",type = "password")
