@@ -58,8 +58,6 @@ profile = st.sidebar.multiselect("Select Job Profile",
                                 options = profile_op)
 
 
-)
-
 st.markdown("""###Get User Info""")
 user_info = st.text_area("""Write your Resume description: """)
 
