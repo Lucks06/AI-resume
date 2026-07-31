@@ -36,6 +36,11 @@ if not all(all_API):
     st.stop()
 elif all(all_API):
     st.success("API KEYS LOADED SUCCESSFULLY")
+    
+    model = ChatGoogleGenerativeAI(
+        model = 'gemini-3.5-flash-lite',
+        google_api_key = GOOGLE_API_KEY
+    )
 else:
     st.info("PASS ALL API-KEYS")
 
@@ -52,9 +57,7 @@ profile_op = ["Data Analysts", "AI Engineer",
 profile = st.sidebar.multiselect("Select Job Profile",
                                 options = profile_op)
 
-model = ChatGoogleGenerativeAI(
-    model = 'gemini-3.5-flash-lite',
-    google_api_key = GOOGLE_API_KEY
+
 )
 
 st.markdown("""###Get User Info""")
